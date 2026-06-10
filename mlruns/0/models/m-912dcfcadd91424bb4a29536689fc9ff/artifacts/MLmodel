@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/2021ICTS11/Documents/Krish Naik Projects/ML_Flow-project-with-AWS/mlruns/0/models/m-912dcfcadd91424bb4a29536689fc9ff/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.20
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-912dcfcadd91424bb4a29536689fc9ff
+model_size_bytes: 879
+model_uuid: m-912dcfcadd91424bb4a29536689fc9ff
+prompts: null
+run_id: 82f34483ff5f408880c6bc63c4f1859d
+utc_time_created: '2026-06-10 14:24:31.027026'
